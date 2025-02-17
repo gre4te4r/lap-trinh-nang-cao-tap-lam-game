@@ -1,1 +1,1 @@
-# lap-trinh-nang-cao-tap-lam-game
+Một game 2D, một nhân vật chính có thể tấn công bằng cách bắn 1 tia lửa. Nhân vật đứng ở trong map, có thể di chuyển tùy ý, tiêu diệt kẻ thù xuất hiện ngẫu nhiên đi từ ngoài map vào. Trò chơi kết thúc khi kẻ thù chạm vào nhân vật chính
