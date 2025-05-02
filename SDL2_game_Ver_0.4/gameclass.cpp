@@ -1,0 +1,305 @@
+#include <SDL_image.h>
+#include <SDL.h>
+
+#include "gameclass.h"
+#include "InputHandler.h"
+#include "PlayState.h"
+#include "MenuState.h"
+
+
+Game* Game::s_pInstance = nullptr;
+
+Game::Game()
+{
+    myWindow = nullptr;
+    myRenderer = nullptr;
+    m_bRunning = false;
+    m_currentFrame = 0;
+}
+
+bool Game::init(const char *title, int xpos, int ypos, int width, int height, int flags)
+{
+
+    if (SDL_Init(SDL_INIT_EVERYTHING) == 0)
+    {
+
+        myWindow = SDL_CreateWindow(title, xpos, ypos, width, height, flags);
+
+        if (myWindow != 0)
+        {
+
+            myRenderer = SDL_CreateRenderer(myWindow, -1, 0);
+
+            if (myRenderer != 0)
+            {
+
+                SDL_SetRenderDrawColor(myRenderer, 0, 255, 255, 255);
+            }
+            else
+            {
+                return false;
+            }
+        }
+        else
+        {
+            return false;
+        }
+    }
+    else
+    {
+        return false;
+    }
+
+    IMG_Init(IMG_INIT_PNG || IMG_INIT_JPG);
+
+    if (!TextureManager::Instance()->load("sPlayerRun_strip7.png", "run", myRenderer))
+    {
+        return false;
+    }
+
+    if (!TextureManager::Instance()->load("sPlayerIdle_strip4.png", "idle", myRenderer))
+    {
+        return false;
+    }
+
+    player = new Player();
+    player->load(300, 300, 40, 40, "run");
+    m_gameObjects.push_back(player);
+
+    if (!TextureManager::Instance()->load("sEnemy_strip7.png", "enemyRun", myRenderer))
+    {
+        return false;
+    }
+
+    if (!TextureManager::Instance()->load("sBullet.png", "bullet", myRenderer))
+    {
+        return false;
+    }
+
+    if (!TextureManager::Instance()->load("background (1).png", "background", myRenderer))
+    {
+        return false;
+    }
+    if (!SoundManager::Instance()->load("aBullet.mp3", "bullet", SOUND_SFX))
+    {
+        return false;
+    }
+    if (!SoundManager::Instance()->load("aDeath.mp3", "die", SOUND_SFX))
+    {
+        return false;
+    }
+    if (!SoundManager::Instance()->load("playerDeath.mp3", "playerDie", SOUND_MUSIC))
+    {
+        return false;
+    }
+    if (!SoundManager::Instance()->load("bgMusic.mp3", "bgMusic", SOUND_MUSIC))
+    {
+        return false;
+    }
+    SoundManager::Instance()->playMusic("bgMusic", -1);
+    Mix_VolumeMusic(20);
+    m_bRunning = true;
+    m_pGameStateMachine = new GameStateMachine();
+m_pGameStateMachine->changeState(new MenuState());
+    return true;
+}
+
+void Game::render()
+{
+
+    SDL_RenderClear(myRenderer);
+    TextureManager::Instance()->draw("background", 0, 0, 853, 480, myRenderer);
+
+    player->draw(myRenderer);
+
+    for (std::vector<Enemy *>::size_type i = 0; i != enemies.size(); i++)
+    {
+        enemies[i]->draw(myRenderer);
+    }
+
+    for (std::vector<Bullet *>::size_type i = 0; i != bullets.size(); i++)
+    {
+        bullets[i]->draw(myRenderer);
+    }
+    m_pGameStateMachine->render();
+
+    SDL_RenderPresent(myRenderer);
+}
+
+void Game::update()
+{
+
+    player->update();
+
+    mousePos = TheInputHandler::Instance()->getMousePosition();
+
+    for (std::vector<GameObject *>::size_type i = 0; i != enemies.size(); i++)
+    {
+
+        Vector2D pos = player->playerGetPosition();
+        enemies[i]->getBulletDestination(pos);
+
+        enemies[i]->update();
+    }
+
+    for (std::vector<GameObject *>::size_type i = 0; i != bullets.size(); i++)
+    {
+
+        bullets[i]->update();
+    }
+    m_pGameStateMachine->update();
+}
+
+void Game::handleEvents()
+{
+
+
+    TheInputHandler::Instance()->update(myWindow, myRenderer);
+    if(TheInputHandler::Instance()->isKeyDown(SDL_SCANCODE_RETURN))
+ {
+ m_pGameStateMachine->changeState(new PlayState());
+ }
+}
+
+void Game::clean()
+{
+
+    SDL_DestroyWindow(myWindow);
+    SDL_DestroyRenderer(myRenderer);
+    SDL_Quit();
+}
+
+void Game::spawnEnemy()
+{
+    int ran = rand() % 4;
+    int randomX;
+    int randomY;
+    Enemy *newEnemy = new Enemy();
+
+    if (ran == 1)
+    {
+        randomX = -40;
+        randomY = rand() % 440;
+    }
+    else if (ran == 2)
+    {
+        randomX = 893;
+        randomY = rand() % 440;
+    }
+    else if (ran == 3)
+    {
+        randomX = rand() % 893;
+        randomY = -40;
+    }
+    else
+    {
+
+        randomX = rand() % 893;
+        randomY = 520;
+    }
+
+    Vector2D pos = player->playerGetPosition();
+    newEnemy->getBulletDestination(pos);
+
+    newEnemy->load(randomX, randomY, 40, 40, "enemyRun");
+
+    enemies.push_back(newEnemy);
+}
+
+void Game::generateBullet()
+{
+
+    Bullet *newBullet = new Bullet();
+
+    Vector2D position = player->playerGetPosition();
+
+    int posX = position.getX() + 6;
+    int posY = position.getY() + 15;
+
+    newBullet->load(posX, posY, 16, 16, "bullet");
+
+    Vector2D pos = *mousePos;
+
+    newBullet->getBulletDestination(pos);
+
+    bullets.push_back(newBullet);
+    SoundManager::Instance()->playSound("bullet", 0);
+
+}
+
+void Game::checkBulletEnemyCollision()
+{
+    for (int i = bullets.size() - 1; i >= 0; i--)
+    {
+        SDL_Rect Rect1;
+        Rect1.x = bullets[i]->getBulletPosX();
+        Rect1.y = bullets[i]->getBulletPosY();
+        Rect1.w = bullets[i]->getBulletWidth();
+        Rect1.h = bullets[i]->getBulletHeight();
+        for (int j = enemies.size() - 1; j >= 0; j--)
+        {
+            SDL_Rect Rect2;
+            Rect2.x = enemies[j]->getEnemyPosX();
+            Rect2.y = enemies[j]->getEnemyPosY();
+            Rect2.w = enemies[j]->getEnemyWidth();
+            Rect2.h = enemies[j]->getEnemyHeight();
+
+            if (RectRect(&Rect1, &Rect2))
+            {
+                delete enemies[j];
+                enemies.erase(enemies.begin() + j);
+
+                delete bullets[i];
+                bullets.erase(bullets.begin() + i);
+                SoundManager::Instance()->playSound("die", 0);
+                break;
+            }
+        }
+    }
+}
+
+void Game::checkPlayerEnemyCollision()
+{
+
+    SDL_Rect Rect1;
+
+    Vector2D position = player->playerGetPosition();
+
+    Rect1.x = position.getX();
+    Rect1.y = position.getY();
+    Rect1.w = player->getPlayerWidth();
+    Rect1.h = player->getPlayerHeight();
+
+    for (int j = enemies.size() - 1; j >= 0; j--)
+    {
+        SDL_Rect Rect2;
+        Rect2.x = enemies[j]->getEnemyPosX();
+        Rect2.y = enemies[j]->getEnemyPosY();
+        Rect2.w = enemies[j]->getEnemyWidth();
+        Rect2.h = enemies[j]->getEnemyHeight();
+
+        if (RectRect(&Rect1, &Rect2))
+        {
+            delete enemies[j];
+            enemies.erase(enemies.begin() + j);
+            SoundManager::Instance()->playMusic("playerDie", 0);
+//            m_bRunning = false;
+            break;
+        }
+    }
+}
+
+void Game::checkBulletOutofScreen()
+{
+
+    for (int i = bullets.size() - 1; i >= 0; i--)
+    {
+
+        if (bullets[i]->getBulletPosX() > 853 || bullets[i]->getBulletPosX() < 0 || bullets[i]->getBulletPosY() > 480 || bullets[i]->getBulletPosY() < 0)
+        {
+
+            delete bullets[i];
+            bullets.erase(bullets.begin() + i);
+        }
+    }
+}
