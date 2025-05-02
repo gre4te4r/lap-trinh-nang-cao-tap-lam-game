@@ -1,0 +1,1679 @@
+# depslib dependency file v1.0
+1741563657 source:d:\codeblocks\hello\main.cpp
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	"gameclass.h"
+
+1741567254 d:\codeblocks\hello\gameclass.h
+	<iostream>
+	<vector>
+	"SDL.h"
+	"TextureManage.h"
+	"gameObject.h"
+	"player.h"
+	"Enemy.h"
+	"Vector2D.h"
+	"InputHandler.h"
+
+1741571211 source:d:\codeblocks\hello\gameclass.cpp
+	<SDL_image.h>
+	<SDL.h>
+	"gameclass.h"
+	"InputHandler.h"
+
+1741564973 d:\codeblocks\hello\texturemanage.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+
+1741565447 source:d:\codeblocks\hello\texturemanage.cpp
+	"TextureManage.h"
+
+1741564863 source:d:\codeblocks\hello\gameobject.cpp
+	"gameObject.h"
+
+1741571322 d:\codeblocks\hello\gameobject.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	"TextureManage.h"
+	"Vector2D.h"
+	"InputHandler.h"
+
+1741564863 d:\codeblocks\hello\player.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	"GameObject.h"
+	"TextureManage.h"
+	"InputHandler.h"
+
+1741571377 source:d:\codeblocks\hello\player.cpp
+	"player.h"
+	"InputHandler.h"
+
+1741564973 source:d:\codeblocks\hello\enemy.cpp
+	"Enemy.h"
+
+1741564863 d:\codeblocks\hello\enemy.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	"GameObject.h"
+	"TextureManage.h"
+
+1741565447 d:\codeblocks\hello\vector2d.h
+	<math.h>
+
+1741570536 d:\codeblocks\hello\inputhandler.h
+	<iostream>
+	<vector>
+	"SDL.h"
+	"Vector2D.h"
+
+1741570407 source:d:\codeblocks\hello\inputhandler.cpp
+	"InputHandler.h"
+	"gameclass.h"
+	<iostream>
+
+1741564973 source:d:\codeblocks\sdl2_game\enemy.cpp
+	"Enemy.h"
+
+1741564863 d:\codeblocks\sdl2_game\enemy.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	"GameObject.h"
+	"TextureManage.h"
+
+1741571322 d:\codeblocks\sdl2_game\gameobject.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	"TextureManage.h"
+	"Vector2D.h"
+	"InputHandler.h"
+
+1741564973 d:\codeblocks\sdl2_game\texturemanage.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+
+1741565447 d:\codeblocks\sdl2_game\vector2d.h
+	<math.h>
+
+1741833641 d:\codeblocks\sdl2_game\inputhandler.h
+	<iostream>
+	<vector>
+	"SDL.h"
+	"Vector2D.h"
+
+1741833031 source:d:\codeblocks\sdl2_game\gameclass.cpp
+	<SDL_image.h>
+	<SDL.h>
+	"gameclass.h"
+	"InputHandler.h"
+
+1741831895 d:\codeblocks\sdl2_game\gameclass.h
+	<iostream>
+	<vector>
+	<string>
+	"SDL.h"
+	"TextureManage.h"
+	"gameObject.h"
+	"player.h"
+	"Enemy.h"
+	"Vector2D.h"
+	"InputHandler.h"
+
+1741564863 d:\codeblocks\sdl2_game\player.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	"GameObject.h"
+	"TextureManage.h"
+	"InputHandler.h"
+
+1741564863 source:d:\codeblocks\sdl2_game\gameobject.cpp
+	"gameObject.h"
+
+1741833641 source:d:\codeblocks\sdl2_game\inputhandler.cpp
+	"InputHandler.h"
+	"gameclass.h"
+	<iostream>
+
+1741594990 source:d:\codeblocks\sdl2_game\main.cpp
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	"gameclass.h"
+
+1741833641 source:d:\codeblocks\sdl2_game\player.cpp
+	"player.h"
+	"InputHandler.h"
+
+1741565447 source:d:\codeblocks\sdl2_game\texturemanage.cpp
+	"TextureManage.h"
+
+1742197701 source:d:\codeblocks\sdl2_game_ver_0.1.2\enemy.cpp
+	"Enemy.h"
+
+1741564863 d:\codeblocks\sdl2_game_ver_0.1.2\enemy.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	"GameObject.h"
+	"TextureManage.h"
+
+1741571322 d:\codeblocks\sdl2_game_ver_0.1.2\gameobject.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	"TextureManage.h"
+	"Vector2D.h"
+	"InputHandler.h"
+
+1742195969 d:\codeblocks\sdl2_game_ver_0.1.2\texturemanage.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+
+1741565447 d:\codeblocks\sdl2_game_ver_0.1.2\vector2d.h
+	<math.h>
+
+1742195196 d:\codeblocks\sdl2_game_ver_0.1.2\inputhandler.h
+	<iostream>
+	<vector>
+	"SDL.h"
+	"Vector2D.h"
+
+1742198353 source:d:\codeblocks\sdl2_game_ver_0.1.2\gameclass.cpp
+	<SDL_image.h>
+	<SDL.h>
+	"gameclass.h"
+	"InputHandler.h"
+
+1742196754 d:\codeblocks\sdl2_game_ver_0.1.2\gameclass.h
+	<iostream>
+	<vector>
+	<string>
+	"SDL.h"
+	"TextureManage.h"
+	"gameObject.h"
+	"player.h"
+	"Enemy.h"
+	"Vector2D.h"
+	"InputHandler.h"
+
+1741564863 d:\codeblocks\sdl2_game_ver_0.1.2\player.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	"GameObject.h"
+	"TextureManage.h"
+	"InputHandler.h"
+
+1741564863 source:d:\codeblocks\sdl2_game_ver_0.1.2\gameobject.cpp
+	"gameObject.h"
+
+1742195454 source:d:\codeblocks\sdl2_game_ver_0.1.2\inputhandler.cpp
+	"InputHandler.h"
+	"gameclass.h"
+	<iostream>
+
+1741833760 source:d:\codeblocks\sdl2_game_ver_0.1.2\main.cpp
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	"gameclass.h"
+
+1742479888 source:d:\codeblocks\sdl2_game_ver_0.1.2\player.cpp
+	"player.h"
+	"InputHandler.h"
+
+1742212514 source:d:\codeblocks\sdl2_game_ver_0.1.2\texturemanage.cpp
+	"TextureManage.h"
+
+1742804194 source:c:\users\duy74\lap-trinh-nang-cao-tap-lam-game\sdl2_game_ver_0.1.3\enemy.cpp
+	"Enemy.h"
+
+1742804194 c:\users\duy74\lap-trinh-nang-cao-tap-lam-game\sdl2_game_ver_0.1.3\enemy.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	"GameObject.h"
+	"TextureManage.h"
+
+1742804194 c:\users\duy74\lap-trinh-nang-cao-tap-lam-game\sdl2_game_ver_0.1.3\gameobject.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	"TextureManage.h"
+	"Vector2D.h"
+	"InputHandler.h"
+
+1742804194 c:\users\duy74\lap-trinh-nang-cao-tap-lam-game\sdl2_game_ver_0.1.3\texturemanage.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+
+1742804194 c:\users\duy74\lap-trinh-nang-cao-tap-lam-game\sdl2_game_ver_0.1.3\vector2d.h
+	<math.h>
+
+1742804194 c:\users\duy74\lap-trinh-nang-cao-tap-lam-game\sdl2_game_ver_0.1.3\inputhandler.h
+	<iostream>
+	<vector>
+	"SDL.h"
+	"Vector2D.h"
+
+1742804194 source:c:\users\duy74\lap-trinh-nang-cao-tap-lam-game\sdl2_game_ver_0.1.3\gameclass.cpp
+	<SDL_image.h>
+	<SDL.h>
+	"gameclass.h"
+	"InputHandler.h"
+
+1742804194 c:\users\duy74\lap-trinh-nang-cao-tap-lam-game\sdl2_game_ver_0.1.3\gameclass.h
+	<iostream>
+	<vector>
+	<string>
+	"SDL.h"
+	"TextureManage.h"
+	"gameObject.h"
+	"player.h"
+	"Enemy.h"
+	"Vector2D.h"
+	"InputHandler.h"
+
+1742804194 c:\users\duy74\lap-trinh-nang-cao-tap-lam-game\sdl2_game_ver_0.1.3\player.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	"GameObject.h"
+	"TextureManage.h"
+	"InputHandler.h"
+
+1742804194 source:c:\users\duy74\lap-trinh-nang-cao-tap-lam-game\sdl2_game_ver_0.1.3\gameobject.cpp
+	"gameObject.h"
+
+1742804194 source:c:\users\duy74\lap-trinh-nang-cao-tap-lam-game\sdl2_game_ver_0.1.3\inputhandler.cpp
+	"InputHandler.h"
+	"gameclass.h"
+	<iostream>
+
+1742804194 source:c:\users\duy74\lap-trinh-nang-cao-tap-lam-game\sdl2_game_ver_0.1.3\main.cpp
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	"gameclass.h"
+
+1742804194 source:c:\users\duy74\lap-trinh-nang-cao-tap-lam-game\sdl2_game_ver_0.1.3\player.cpp
+	"player.h"
+	"InputHandler.h"
+
+1742804194 source:c:\users\duy74\lap-trinh-nang-cao-tap-lam-game\sdl2_game_ver_0.1.3\texturemanage.cpp
+	"TextureManage.h"
+
+1742924386 source:d:\code_block\sdl2_game_ver_0.1.3\enemy.cpp
+	"Enemy.h"
+
+1742924386 d:\code_block\sdl2_game_ver_0.1.3\enemy.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	"GameObject.h"
+	"TextureManage.h"
+
+1742923908 d:\code_block\sdl2_game_ver_0.1.3\gameobject.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	"TextureManage.h"
+	"Vector2D.h"
+	"InputHandler.h"
+
+1742804194 d:\code_block\sdl2_game_ver_0.1.3\texturemanage.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+
+1742804194 d:\code_block\sdl2_game_ver_0.1.3\vector2d.h
+	<math.h>
+
+1742804194 d:\code_block\sdl2_game_ver_0.1.3\inputhandler.h
+	<iostream>
+	<vector>
+	"SDL.h"
+	"Vector2D.h"
+
+1742926780 source:d:\code_block\sdl2_game_ver_0.1.3\gameclass.cpp
+	<SDL_image.h>
+	<SDL.h>
+	"gameclass.h"
+	"InputHandler.h"
+
+1742926417 d:\code_block\sdl2_game_ver_0.1.3\gameclass.h
+	<iostream>
+	<vector>
+	<string>
+	"SDL.h"
+	"TextureManage.h"
+	"gameObject.h"
+	"player.h"
+	"Enemy.h"
+	"Vector2D.h"
+	"InputHandler.h"
+	"Bullet.h"
+	"collision.h"
+
+1742926416 d:\code_block\sdl2_game_ver_0.1.3\player.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	"GameObject.h"
+	"TextureManage.h"
+	"InputHandler.h"
+
+1742804194 source:d:\code_block\sdl2_game_ver_0.1.3\gameobject.cpp
+	"gameObject.h"
+
+1742842222 source:d:\code_block\sdl2_game_ver_0.1.3\inputhandler.cpp
+	"InputHandler.h"
+	"gameclass.h"
+	<iostream>
+
+1742926780 source:d:\code_block\sdl2_game_ver_0.1.3\main.cpp
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	"gameclass.h"
+
+1742926416 source:d:\code_block\sdl2_game_ver_0.1.3\player.cpp
+	"player.h"
+	"InputHandler.h"
+
+1742908938 source:d:\code_block\sdl2_game_ver_0.1.3\texturemanage.cpp
+	"TextureManage.h"
+
+1742923908 d:\code_block\sdl2_game_ver_0.1.3\bullet.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	"GameObject.h"
+	"TextureManage.h"
+	"InputHandler.h"
+
+1742923908 source:d:\code_block\sdl2_game_ver_0.1.3\bullet.cpp
+	"Bullet.h"
+
+1742921848 d:\code_block\sdl2_game_ver_0.1.3\collision.h
+	"SDL.h"
+	"Vector2D.h"
+
+1742929387 source:d:\code_block\sdl2_game_ver_0.2\bullet.cpp
+	"Bullet.h"
+
+1742923908 d:\code_block\sdl2_game_ver_0.2\bullet.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	"GameObject.h"
+	"TextureManage.h"
+	"InputHandler.h"
+
+1742923908 d:\code_block\sdl2_game_ver_0.2\gameobject.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	"TextureManage.h"
+	"Vector2D.h"
+	"InputHandler.h"
+
+1742804194 d:\code_block\sdl2_game_ver_0.2\texturemanage.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+
+1742804194 d:\code_block\sdl2_game_ver_0.2\vector2d.h
+	<math.h>
+
+1742804194 d:\code_block\sdl2_game_ver_0.2\inputhandler.h
+	<iostream>
+	<vector>
+	"SDL.h"
+	"Vector2D.h"
+
+1742924386 source:d:\code_block\sdl2_game_ver_0.2\enemy.cpp
+	"Enemy.h"
+
+1742924386 d:\code_block\sdl2_game_ver_0.2\enemy.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	"GameObject.h"
+	"TextureManage.h"
+
+1742931955 source:d:\code_block\sdl2_game_ver_0.2\gameclass.cpp
+	<SDL_image.h>
+	<SDL.h>
+	"gameclass.h"
+	"InputHandler.h"
+
+1742926417 d:\code_block\sdl2_game_ver_0.2\gameclass.h
+	<iostream>
+	<vector>
+	<string>
+	"SDL.h"
+	"TextureManage.h"
+	"gameObject.h"
+	"player.h"
+	"Enemy.h"
+	"Vector2D.h"
+	"InputHandler.h"
+	"Bullet.h"
+	"collision.h"
+
+1742926416 d:\code_block\sdl2_game_ver_0.2\player.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	"GameObject.h"
+	"TextureManage.h"
+	"InputHandler.h"
+
+1742921848 d:\code_block\sdl2_game_ver_0.2\collision.h
+	"SDL.h"
+	"Vector2D.h"
+
+1742804194 source:d:\code_block\sdl2_game_ver_0.2\gameobject.cpp
+	"gameObject.h"
+
+1742842222 source:d:\code_block\sdl2_game_ver_0.2\inputhandler.cpp
+	"InputHandler.h"
+	"gameclass.h"
+	<iostream>
+
+1742930908 source:d:\code_block\sdl2_game_ver_0.2\main.cpp
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	"gameclass.h"
+
+1742931693 source:d:\code_block\sdl2_game_ver_0.2\player.cpp
+	"player.h"
+	"InputHandler.h"
+
+1742908938 source:d:\code_block\sdl2_game_ver_0.2\texturemanage.cpp
+	"TextureManage.h"
+
+1743017626 source:d:\code_block\sdl2_game_ver_0.2.1\bullet.cpp
+	"Bullet.h"
+
+1742995423 d:\code_block\sdl2_game_ver_0.2.1\bullet.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	<cmath>
+	"GameObject.h"
+	"TextureManage.h"
+	"InputHandler.h"
+
+1743016512 d:\code_block\sdl2_game_ver_0.2.1\gameobject.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	"TextureManage.h"
+	"Vector2D.h"
+	"InputHandler.h"
+
+1742804194 d:\code_block\sdl2_game_ver_0.2.1\texturemanage.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+
+1742804194 d:\code_block\sdl2_game_ver_0.2.1\vector2d.h
+	<math.h>
+
+1742804194 d:\code_block\sdl2_game_ver_0.2.1\inputhandler.h
+	<iostream>
+	<vector>
+	"SDL.h"
+	"Vector2D.h"
+
+1743019410 source:d:\code_block\sdl2_game_ver_0.2.1\enemy.cpp
+	"Enemy.h"
+
+1743018097 d:\code_block\sdl2_game_ver_0.2.1\enemy.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	"GameObject.h"
+	"TextureManage.h"
+
+1743018438 source:d:\code_block\sdl2_game_ver_0.2.1\gameclass.cpp
+	<SDL_image.h>
+	<SDL.h>
+	"gameclass.h"
+	"InputHandler.h"
+
+1743016921 d:\code_block\sdl2_game_ver_0.2.1\gameclass.h
+	<iostream>
+	<vector>
+	<string>
+	"SDL.h"
+	"TextureManage.h"
+	"gameObject.h"
+	"player.h"
+	"Enemy.h"
+	"Vector2D.h"
+	"InputHandler.h"
+	"Bullet.h"
+	"collision.h"
+
+1742926416 d:\code_block\sdl2_game_ver_0.2.1\player.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	"GameObject.h"
+	"TextureManage.h"
+	"InputHandler.h"
+
+1742921848 d:\code_block\sdl2_game_ver_0.2.1\collision.h
+	"SDL.h"
+	"Vector2D.h"
+
+1743016512 source:d:\code_block\sdl2_game_ver_0.2.1\gameobject.cpp
+	"gameObject.h"
+
+1742842222 source:d:\code_block\sdl2_game_ver_0.2.1\inputhandler.cpp
+	"InputHandler.h"
+	"gameclass.h"
+	<iostream>
+
+1743019198 source:d:\code_block\sdl2_game_ver_0.2.1\main.cpp
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	"gameclass.h"
+
+1743019198 source:d:\code_block\sdl2_game_ver_0.2.1\player.cpp
+	"player.h"
+	"InputHandler.h"
+
+1742908938 source:d:\code_block\sdl2_game_ver_0.2.1\texturemanage.cpp
+	"TextureManage.h"
+
+1743017626 source:d:\code_block\sdl2_game_ver_0.2.2\bullet.cpp
+	"Bullet.h"
+
+1742995423 d:\code_block\sdl2_game_ver_0.2.2\bullet.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	<cmath>
+	"GameObject.h"
+	"TextureManage.h"
+	"InputHandler.h"
+
+1743016512 d:\code_block\sdl2_game_ver_0.2.2\gameobject.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	"TextureManage.h"
+	"Vector2D.h"
+	"InputHandler.h"
+
+1742804194 d:\code_block\sdl2_game_ver_0.2.2\texturemanage.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+
+1742804194 d:\code_block\sdl2_game_ver_0.2.2\vector2d.h
+	<math.h>
+
+1742804194 d:\code_block\sdl2_game_ver_0.2.2\inputhandler.h
+	<iostream>
+	<vector>
+	"SDL.h"
+	"Vector2D.h"
+
+1743020717 source:d:\code_block\sdl2_game_ver_0.2.2\enemy.cpp
+	"Enemy.h"
+
+1743018097 d:\code_block\sdl2_game_ver_0.2.2\enemy.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	"GameObject.h"
+	"TextureManage.h"
+
+1743020769 source:d:\code_block\sdl2_game_ver_0.2.2\gameclass.cpp
+	<SDL_image.h>
+	<SDL.h>
+	"gameclass.h"
+	"InputHandler.h"
+
+1743016921 d:\code_block\sdl2_game_ver_0.2.2\gameclass.h
+	<iostream>
+	<vector>
+	<string>
+	"SDL.h"
+	"TextureManage.h"
+	"gameObject.h"
+	"player.h"
+	"Enemy.h"
+	"Vector2D.h"
+	"InputHandler.h"
+	"Bullet.h"
+	"collision.h"
+
+1742926416 d:\code_block\sdl2_game_ver_0.2.2\player.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	"GameObject.h"
+	"TextureManage.h"
+	"InputHandler.h"
+
+1742921848 d:\code_block\sdl2_game_ver_0.2.2\collision.h
+	"SDL.h"
+	"Vector2D.h"
+
+1743016512 source:d:\code_block\sdl2_game_ver_0.2.2\gameobject.cpp
+	"gameObject.h"
+
+1742842222 source:d:\code_block\sdl2_game_ver_0.2.2\inputhandler.cpp
+	"InputHandler.h"
+	"gameclass.h"
+	<iostream>
+
+1743020769 source:d:\code_block\sdl2_game_ver_0.2.2\main.cpp
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	"gameclass.h"
+
+1743019198 source:d:\code_block\sdl2_game_ver_0.2.2\player.cpp
+	"player.h"
+	"InputHandler.h"
+
+1742908938 source:d:\code_block\sdl2_game_ver_0.2.2\texturemanage.cpp
+	"TextureManage.h"
+
+1743061362 source:d:\code_block\sdl2_game_ver_0.3\bullet.cpp
+	"Bullet.h"
+
+1742995423 d:\code_block\sdl2_game_ver_0.3\bullet.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	<cmath>
+	"GameObject.h"
+	"TextureManage.h"
+	"InputHandler.h"
+
+1743016512 d:\code_block\sdl2_game_ver_0.3\gameobject.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	"TextureManage.h"
+	"Vector2D.h"
+	"InputHandler.h"
+
+1742804194 d:\code_block\sdl2_game_ver_0.3\texturemanage.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+
+1742804194 d:\code_block\sdl2_game_ver_0.3\vector2d.h
+	<math.h>
+
+1742804194 d:\code_block\sdl2_game_ver_0.3\inputhandler.h
+	<iostream>
+	<vector>
+	"SDL.h"
+	"Vector2D.h"
+
+1743062817 source:d:\code_block\sdl2_game_ver_0.3\enemy.cpp
+	"Enemy.h"
+
+1743061803 d:\code_block\sdl2_game_ver_0.3\enemy.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	"GameObject.h"
+	"TextureManage.h"
+
+1743063033 source:d:\code_block\sdl2_game_ver_0.3\gameclass.cpp
+	<SDL_image.h>
+	<SDL.h>
+	"gameclass.h"
+	"InputHandler.h"
+
+1743061452 d:\code_block\sdl2_game_ver_0.3\gameclass.h
+	<iostream>
+	<vector>
+	<string>
+	"SDL.h"
+	"TextureManage.h"
+	"gameObject.h"
+	"player.h"
+	"Enemy.h"
+	"Vector2D.h"
+	"InputHandler.h"
+	"Bullet.h"
+	"collision.h"
+
+1742926416 d:\code_block\sdl2_game_ver_0.3\player.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	"GameObject.h"
+	"TextureManage.h"
+	"InputHandler.h"
+
+1742921848 d:\code_block\sdl2_game_ver_0.3\collision.h
+	"SDL.h"
+	"Vector2D.h"
+
+1743016512 source:d:\code_block\sdl2_game_ver_0.3\gameobject.cpp
+	"gameObject.h"
+
+1742842222 source:d:\code_block\sdl2_game_ver_0.3\inputhandler.cpp
+	"InputHandler.h"
+	"gameclass.h"
+	<iostream>
+
+1743063176 source:d:\code_block\sdl2_game_ver_0.3\main.cpp
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	"gameclass.h"
+
+1743063162 source:d:\code_block\sdl2_game_ver_0.3\player.cpp
+	"player.h"
+	"InputHandler.h"
+
+1742908938 source:d:\code_block\sdl2_game_ver_0.3\texturemanage.cpp
+	"TextureManage.h"
+
+1743879465 source:d:\code_block\sdl2_game_ver_0.3.1\bullet.cpp
+	"Bullet.h"
+
+1742995423 d:\code_block\sdl2_game_ver_0.3.1\bullet.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	<cmath>
+	"GameObject.h"
+	"TextureManage.h"
+	"InputHandler.h"
+
+1743879249 d:\code_block\sdl2_game_ver_0.3.1\gameobject.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	"TextureManage.h"
+	"Vector2D.h"
+	"InputHandler.h"
+
+1742804194 d:\code_block\sdl2_game_ver_0.3.1\texturemanage.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+
+1742804194 d:\code_block\sdl2_game_ver_0.3.1\vector2d.h
+	<math.h>
+
+1743879989 d:\code_block\sdl2_game_ver_0.3.1\inputhandler.h
+	<iostream>
+	<vector>
+	"SDL.h"
+	"Vector2D.h"
+
+1743879420 source:d:\code_block\sdl2_game_ver_0.3.1\enemy.cpp
+	"Enemy.h"
+
+1743879420 d:\code_block\sdl2_game_ver_0.3.1\enemy.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	"GameObject.h"
+	"TextureManage.h"
+
+1743879300 source:d:\code_block\sdl2_game_ver_0.3.1\gameobject.cpp
+	"gameObject.h"
+
+1743879989 source:d:\code_block\sdl2_game_ver_0.3.1\inputhandler.cpp
+	"InputHandler.h"
+	"gameclass.h"
+	<iostream>
+
+1743879109 d:\code_block\sdl2_game_ver_0.3.1\gameclass.h
+	<iostream>
+	<vector>
+	<string>
+	"SDL.h"
+	"TextureManage.h"
+	"gameObject.h"
+	"player.h"
+	"Enemy.h"
+	"Vector2D.h"
+	"InputHandler.h"
+	"Bullet.h"
+	"collision.h"
+
+1743879380 d:\code_block\sdl2_game_ver_0.3.1\player.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	"GameObject.h"
+	"TextureManage.h"
+	"InputHandler.h"
+
+1742921848 d:\code_block\sdl2_game_ver_0.3.1\collision.h
+	"SDL.h"
+	"Vector2D.h"
+
+1745292228 source:d:\code_block\sdl2_game_ver_0.3.1\main.cpp
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	"gameclass.h"
+
+1743879380 source:d:\code_block\sdl2_game_ver_0.3.1\player.cpp
+	"player.h"
+	"InputHandler.h"
+
+1742908938 source:d:\code_block\sdl2_game_ver_0.3.1\texturemanage.cpp
+	"TextureManage.h"
+
+1744173447 source:d:\code_block\sdl2_game_ver_0.3.1\gameclass.cpp
+	<SDL_image.h>
+	<SDL.h>
+	"gameclass.h"
+	"InputHandler.h"
+
+1743879465 source:d:\codeblock\sdl2_game_ver_0.3.1 (1)\sdl2_game_ver_0.3.1\bullet.cpp
+	"Bullet.h"
+
+1742995423 d:\codeblock\sdl2_game_ver_0.3.1 (1)\sdl2_game_ver_0.3.1\bullet.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	<cmath>
+	"GameObject.h"
+	"TextureManage.h"
+	"InputHandler.h"
+
+1746111843 d:\codeblock\sdl2_game_ver_0.3.1 (1)\sdl2_game_ver_0.3.1\gameobject.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	"TextureManage.h"
+	"Vector2D.h"
+	"InputHandler.h"
+	"SoundManager.h"
+
+1742804194 d:\codeblock\sdl2_game_ver_0.3.1 (1)\sdl2_game_ver_0.3.1\texturemanage.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+
+1742804194 d:\codeblock\sdl2_game_ver_0.3.1 (1)\sdl2_game_ver_0.3.1\vector2d.h
+	<math.h>
+
+1743879989 d:\codeblock\sdl2_game_ver_0.3.1 (1)\sdl2_game_ver_0.3.1\inputhandler.h
+	<iostream>
+	<vector>
+	"SDL.h"
+	"Vector2D.h"
+
+1743879420 source:d:\codeblock\sdl2_game_ver_0.3.1 (1)\sdl2_game_ver_0.3.1\enemy.cpp
+	"Enemy.h"
+
+1743879420 d:\codeblock\sdl2_game_ver_0.3.1 (1)\sdl2_game_ver_0.3.1\enemy.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	"GameObject.h"
+	"TextureManage.h"
+
+1746116990 source:d:\codeblock\sdl2_game_ver_0.3.1 (1)\sdl2_game_ver_0.3.1\gameclass.cpp
+	<SDL_image.h>
+	<SDL.h>
+	"gameclass.h"
+	"InputHandler.h"
+
+1746111843 d:\codeblock\sdl2_game_ver_0.3.1 (1)\sdl2_game_ver_0.3.1\gameclass.h
+	<iostream>
+	<vector>
+	<string>
+	"SDL.h"
+	"TextureManage.h"
+	"gameObject.h"
+	"player.h"
+	"Enemy.h"
+	"Vector2D.h"
+	"InputHandler.h"
+	"Bullet.h"
+	"collision.h"
+	"SoundManager.h"
+
+1746111843 d:\codeblock\sdl2_game_ver_0.3.1 (1)\sdl2_game_ver_0.3.1\player.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	"GameObject.h"
+	"TextureManage.h"
+	"InputHandler.h"
+	"SoundManager.h"
+
+1742921848 d:\codeblock\sdl2_game_ver_0.3.1 (1)\sdl2_game_ver_0.3.1\collision.h
+	"SDL.h"
+	"Vector2D.h"
+
+1743879300 source:d:\codeblock\sdl2_game_ver_0.3.1 (1)\sdl2_game_ver_0.3.1\gameobject.cpp
+	"gameObject.h"
+
+1743879989 source:d:\codeblock\sdl2_game_ver_0.3.1 (1)\sdl2_game_ver_0.3.1\inputhandler.cpp
+	"InputHandler.h"
+	"gameclass.h"
+	<iostream>
+
+1746113863 source:d:\codeblock\sdl2_game_ver_0.3.1 (1)\sdl2_game_ver_0.3.1\main.cpp
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	"gameclass.h"
+
+1746111034 source:d:\codeblock\sdl2_game_ver_0.3.1 (1)\sdl2_game_ver_0.3.1\player.cpp
+	"player.h"
+	"InputHandler.h"
+
+1742908938 source:d:\codeblock\sdl2_game_ver_0.3.1 (1)\sdl2_game_ver_0.3.1\texturemanage.cpp
+	"TextureManage.h"
+
+1746111854 d:\codeblock\sdl2_game_ver_0.3.1 (1)\sdl2_game_ver_0.3.1\soundmanager.h
+	<iostream>
+	<map>
+	<string>
+	"SDL_mixer.h"
+
+1746111843 source:d:\codeblock\sdl2_game_ver_0.3.1 (1)\sdl2_game_ver_0.3.1\soundmanager.cpp
+	"SoundManager.h"
+
+1746120902 source:c:\users\asus\lap-trinh-nang-cao-tap-lam-game\sdl2_game_ver_0.3.2\bullet.cpp
+	"Bullet.h"
+
+1746120902 c:\users\asus\lap-trinh-nang-cao-tap-lam-game\sdl2_game_ver_0.3.2\bullet.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	<cmath>
+	"GameObject.h"
+	"TextureManage.h"
+	"InputHandler.h"
+
+1746120902 c:\users\asus\lap-trinh-nang-cao-tap-lam-game\sdl2_game_ver_0.3.2\gameobject.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	"TextureManage.h"
+	"Vector2D.h"
+	"InputHandler.h"
+	"SoundManager.h"
+
+1746120902 c:\users\asus\lap-trinh-nang-cao-tap-lam-game\sdl2_game_ver_0.3.2\texturemanage.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+
+1746120902 c:\users\asus\lap-trinh-nang-cao-tap-lam-game\sdl2_game_ver_0.3.2\vector2d.h
+	<math.h>
+
+1746120902 c:\users\asus\lap-trinh-nang-cao-tap-lam-game\sdl2_game_ver_0.3.2\inputhandler.h
+	<iostream>
+	<vector>
+	"SDL.h"
+	"Vector2D.h"
+
+1746120902 c:\users\asus\lap-trinh-nang-cao-tap-lam-game\sdl2_game_ver_0.3.2\soundmanager.h
+	<iostream>
+	<map>
+	<string>
+	"SDL_mixer.h"
+
+1746120902 source:c:\users\asus\lap-trinh-nang-cao-tap-lam-game\sdl2_game_ver_0.3.2\enemy.cpp
+	"Enemy.h"
+
+1746120902 c:\users\asus\lap-trinh-nang-cao-tap-lam-game\sdl2_game_ver_0.3.2\enemy.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	"GameObject.h"
+	"TextureManage.h"
+
+1746120902 source:c:\users\asus\lap-trinh-nang-cao-tap-lam-game\sdl2_game_ver_0.3.2\gameclass.cpp
+	<SDL_image.h>
+	<SDL.h>
+	"gameclass.h"
+	"InputHandler.h"
+
+1746120902 c:\users\asus\lap-trinh-nang-cao-tap-lam-game\sdl2_game_ver_0.3.2\gameclass.h
+	<iostream>
+	<vector>
+	<string>
+	"SDL.h"
+	"TextureManage.h"
+	"gameObject.h"
+	"player.h"
+	"Enemy.h"
+	"Vector2D.h"
+	"InputHandler.h"
+	"Bullet.h"
+	"collision.h"
+	"SoundManager.h"
+
+1746120902 c:\users\asus\lap-trinh-nang-cao-tap-lam-game\sdl2_game_ver_0.3.2\player.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	"GameObject.h"
+	"TextureManage.h"
+	"InputHandler.h"
+	"SoundManager.h"
+
+1746120902 c:\users\asus\lap-trinh-nang-cao-tap-lam-game\sdl2_game_ver_0.3.2\collision.h
+	"SDL.h"
+	"Vector2D.h"
+
+1746120902 source:c:\users\asus\lap-trinh-nang-cao-tap-lam-game\sdl2_game_ver_0.3.2\gameobject.cpp
+	"gameObject.h"
+
+1746120902 source:c:\users\asus\lap-trinh-nang-cao-tap-lam-game\sdl2_game_ver_0.3.2\inputhandler.cpp
+	"InputHandler.h"
+	"gameclass.h"
+	<iostream>
+
+1746120902 source:c:\users\asus\lap-trinh-nang-cao-tap-lam-game\sdl2_game_ver_0.3.2\main.cpp
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	"gameclass.h"
+
+1746120902 source:c:\users\asus\lap-trinh-nang-cao-tap-lam-game\sdl2_game_ver_0.3.2\player.cpp
+	"player.h"
+	"InputHandler.h"
+
+1746120902 source:c:\users\asus\lap-trinh-nang-cao-tap-lam-game\sdl2_game_ver_0.3.2\soundmanager.cpp
+	"SoundManager.h"
+
+1746120902 source:c:\users\asus\lap-trinh-nang-cao-tap-lam-game\sdl2_game_ver_0.3.2\texturemanage.cpp
+	"TextureManage.h"
+
+1746120902 source:d:\codeblock\sdl2_game_ver_0.3.2\bullet.cpp
+	"Bullet.h"
+
+1746120902 d:\codeblock\sdl2_game_ver_0.3.2\bullet.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	<cmath>
+	"GameObject.h"
+	"TextureManage.h"
+	"InputHandler.h"
+
+1746120902 d:\codeblock\sdl2_game_ver_0.3.2\gameobject.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	"TextureManage.h"
+	"Vector2D.h"
+	"InputHandler.h"
+	"SoundManager.h"
+
+1746172890 d:\codeblock\sdl2_game_ver_0.3.2\texturemanage.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+
+1746120902 d:\codeblock\sdl2_game_ver_0.3.2\vector2d.h
+	<math.h>
+
+1746120902 d:\codeblock\sdl2_game_ver_0.3.2\inputhandler.h
+	<iostream>
+	<vector>
+	"SDL.h"
+	"Vector2D.h"
+
+1746120902 d:\codeblock\sdl2_game_ver_0.3.2\soundmanager.h
+	<iostream>
+	<map>
+	<string>
+	"SDL_mixer.h"
+
+1746120902 source:d:\codeblock\sdl2_game_ver_0.3.2\enemy.cpp
+	"Enemy.h"
+
+1746120902 d:\codeblock\sdl2_game_ver_0.3.2\enemy.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	"GameObject.h"
+	"TextureManage.h"
+
+1746172804 source:d:\codeblock\sdl2_game_ver_0.3.2\gameclass.cpp
+	<SDL_image.h>
+	<SDL.h>
+	"gameclass.h"
+	"InputHandler.h"
+	"PlayState.h"
+	"MenuState.h"
+
+1746175843 d:\codeblock\sdl2_game_ver_0.3.2\gameclass.h
+	<iostream>
+	<vector>
+	<string>
+	"SDL.h"
+	"TextureManage.h"
+	"gameObject.h"
+	"player.h"
+	"Enemy.h"
+	"Vector2D.h"
+	"InputHandler.h"
+	"Bullet.h"
+	"collision.h"
+	"SoundManager.h"
+	"GameStateMachine.h"
+
+1746120902 d:\codeblock\sdl2_game_ver_0.3.2\player.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	"GameObject.h"
+	"TextureManage.h"
+	"InputHandler.h"
+	"SoundManager.h"
+
+1746120902 d:\codeblock\sdl2_game_ver_0.3.2\collision.h
+	"SDL.h"
+	"Vector2D.h"
+
+1746175002 source:d:\codeblock\sdl2_game_ver_0.3.2\gameobject.cpp
+	"gameObject.h"
+
+1746120902 source:d:\codeblock\sdl2_game_ver_0.3.2\inputhandler.cpp
+	"InputHandler.h"
+	"gameclass.h"
+	<iostream>
+
+1746173149 source:d:\codeblock\sdl2_game_ver_0.3.2\main.cpp
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	"gameclass.h"
+
+1746172544 source:d:\codeblock\sdl2_game_ver_0.3.2\player.cpp
+	"player.h"
+	"InputHandler.h"
+
+1746120902 source:d:\codeblock\sdl2_game_ver_0.3.2\soundmanager.cpp
+	"SoundManager.h"
+
+1746172886 source:d:\codeblock\sdl2_game_ver_0.3.2\texturemanage.cpp
+	"TextureManage.h"
+
+1746169940 d:\codeblock\sdl2_game_ver_0.3.2\gamestatemachine.h
+	"GameState.h"
+	<vector>
+
+1746168542 d:\codeblock\sdl2_game_ver_0.3.2\gamestate.h
+	<string>
+
+1746181124 source:d:\codeblock\sdl2_game_ver_0.3.2\menustate.cpp
+	"MenuState.h"
+	"PlayState.h"
+	<iostream>
+
+1746175843 d:\codeblock\sdl2_game_ver_0.3.2\menustate.h
+	"GameState.h"
+	"gameObject.h"
+	"MenuButton.h"
+	"gameclass.h"
+
+1746168624 source:d:\codeblock\sdl2_game_ver_0.3.2\playstate.cpp
+	"PlayState.h"
+	<iostream>
+
+1746168542 d:\codeblock\sdl2_game_ver_0.3.2\playstate.h
+	"GameState.h"
+
+1746169940 source:d:\codeblock\sdl2_game_ver_0.3.2\gamestatemachine.cpp
+	"GameStateMachine.h"
+
+1746178576 source:d:\codeblock\sdl2_game_ver_0.3.2\menubutton.cpp
+	"MenuButton.h"
+	"InputHandler.h"
+
+1746176800 d:\codeblock\sdl2_game_ver_0.3.2\menubutton.h
+	"gameObject.h"
+	<string>
+
+1746204605 source:d:\codeblock\sdl2_game_ver_0.4\bullet.cpp
+	"Bullet.h"
+
+1746208037 d:\codeblock\sdl2_game_ver_0.4\bullet.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	<cmath>
+	"GameObject.h"
+	"TextureManage.h"
+	"InputHandler.h"
+
+1746208149 d:\codeblock\sdl2_game_ver_0.4\gameobject.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	"TextureManage.h"
+	"Vector2D.h"
+	"InputHandler.h"
+	"SoundManager.h"
+
+1746172890 d:\codeblock\sdl2_game_ver_0.4\texturemanage.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+
+1746120902 d:\codeblock\sdl2_game_ver_0.4\vector2d.h
+	<math.h>
+
+1746120902 d:\codeblock\sdl2_game_ver_0.4\inputhandler.h
+	<iostream>
+	<vector>
+	"SDL.h"
+	"Vector2D.h"
+
+1746120902 d:\codeblock\sdl2_game_ver_0.4\soundmanager.h
+	<iostream>
+	<map>
+	<string>
+	"SDL_mixer.h"
+
+1746120902 source:d:\codeblock\sdl2_game_ver_0.4\enemy.cpp
+	"Enemy.h"
+
+1746208000 d:\codeblock\sdl2_game_ver_0.4\enemy.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	"GameObject.h"
+	"TextureManage.h"
+
+1746207678 source:d:\codeblock\sdl2_game_ver_0.4\gameclass.cpp
+	<SDL_image.h>
+	<SDL.h>
+	"gameclass.h"
+	"InputHandler.h"
+	"PlayState.h"
+	"MenuState.h"
+
+1746183113 d:\codeblock\sdl2_game_ver_0.4\gameclass.h
+	<iostream>
+	<vector>
+	<string>
+	"SDL.h"
+	"TextureManage.h"
+	"gameObject.h"
+	"player.h"
+	"Enemy.h"
+	"Vector2D.h"
+	"InputHandler.h"
+	"Bullet.h"
+	"collision.h"
+	"SoundManager.h"
+	"GameStateMachine.h"
+
+1746120902 d:\codeblock\sdl2_game_ver_0.4\player.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	"GameObject.h"
+	"TextureManage.h"
+	"InputHandler.h"
+	"SoundManager.h"
+
+1746120902 d:\codeblock\sdl2_game_ver_0.4\collision.h
+	"SDL.h"
+	"Vector2D.h"
+
+1746194661 d:\codeblock\sdl2_game_ver_0.4\gamestatemachine.h
+	"GameState.h"
+	<vector>
+
+1746168542 d:\codeblock\sdl2_game_ver_0.4\gamestate.h
+	<string>
+
+1746194299 d:\codeblock\sdl2_game_ver_0.4\playstate.h
+	"GameState.h"
+	"TextureManage.h"
+	"gameObject.h"
+	"player.h"
+	"Enemy.h"
+	"Vector2D.h"
+	"InputHandler.h"
+	"Bullet.h"
+	"collision.h"
+	"SoundManager.h"
+	"gameclass.h"
+	"GameStateMachine.h"
+	"GameOverState.h"
+
+1746175843 d:\codeblock\sdl2_game_ver_0.4\menustate.h
+	"GameState.h"
+	"gameObject.h"
+	"MenuButton.h"
+	"gameclass.h"
+
+1746176800 d:\codeblock\sdl2_game_ver_0.4\menubutton.h
+	"gameObject.h"
+	<string>
+
+1746207801 source:d:\codeblock\sdl2_game_ver_0.4\gameobject.cpp
+	"gameObject.h"
+
+1746207678 source:d:\codeblock\sdl2_game_ver_0.4\gamestatemachine.cpp
+	<iostream>
+	"GameStateMachine.h"
+
+1746205031 source:d:\codeblock\sdl2_game_ver_0.4\inputhandler.cpp
+	"InputHandler.h"
+	"gameclass.h"
+	<iostream>
+
+1746207255 source:d:\codeblock\sdl2_game_ver_0.4\main.cpp
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	"gameclass.h"
+
+1746206670 source:d:\codeblock\sdl2_game_ver_0.4\menubutton.cpp
+	"MenuButton.h"
+	"InputHandler.h"
+
+1746208257 source:d:\codeblock\sdl2_game_ver_0.4\menustate.cpp
+	"MenuState.h"
+	"PlayState.h"
+	<iostream>
+
+1746204626 source:d:\codeblock\sdl2_game_ver_0.4\player.cpp
+	"player.h"
+	"InputHandler.h"
+
+1746208257 source:d:\codeblock\sdl2_game_ver_0.4\playstate.cpp
+	"PlayState.h"
+	<iostream>
+
+1746120902 source:d:\codeblock\sdl2_game_ver_0.4\soundmanager.cpp
+	"SoundManager.h"
+
+1746172886 source:d:\codeblock\sdl2_game_ver_0.4\texturemanage.cpp
+	"TextureManage.h"
+
+1746195243 d:\codeblock\sdl2_game_ver_0.4\gameoverstate.h
+	"GameState.h"
+	"gameObject.h"
+	"MenuButton.h"
+	"gameclass.h"
+
+1746206988 source:d:\codeblock\sdl2_game_ver_0.4\gameoverstate.cpp
+	"GameOverState.h"
+	"PlayState.h"
+	<iostream>
+	"MenuState.h"
+
+1746204605 source:d:\codeblock\sdl2_game_ver_0.5\bullet.cpp
+	"Bullet.h"
+
+1746208037 d:\codeblock\sdl2_game_ver_0.5\bullet.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	<cmath>
+	"GameObject.h"
+	"TextureManage.h"
+	"InputHandler.h"
+
+1746208149 d:\codeblock\sdl2_game_ver_0.5\gameobject.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	"TextureManage.h"
+	"Vector2D.h"
+	"InputHandler.h"
+	"SoundManager.h"
+
+1746210520 d:\codeblock\sdl2_game_ver_0.5\texturemanage.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+
+1746120902 d:\codeblock\sdl2_game_ver_0.5\vector2d.h
+	<math.h>
+
+1746120902 d:\codeblock\sdl2_game_ver_0.5\inputhandler.h
+	<iostream>
+	<vector>
+	"SDL.h"
+	"Vector2D.h"
+
+1746120902 d:\codeblock\sdl2_game_ver_0.5\soundmanager.h
+	<iostream>
+	<map>
+	<string>
+	"SDL_mixer.h"
+
+1746120902 source:d:\codeblock\sdl2_game_ver_0.5\enemy.cpp
+	"Enemy.h"
+
+1746208000 d:\codeblock\sdl2_game_ver_0.5\enemy.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	"GameObject.h"
+	"TextureManage.h"
+
+1746212688 source:d:\codeblock\sdl2_game_ver_0.5\gameclass.cpp
+	<SDL_image.h>
+	<SDL.h>
+	"gameclass.h"
+	"InputHandler.h"
+	"PlayState.h"
+	"MenuState.h"
+
+1746183113 d:\codeblock\sdl2_game_ver_0.5\gameclass.h
+	<iostream>
+	<vector>
+	<string>
+	"SDL.h"
+	"TextureManage.h"
+	"gameObject.h"
+	"player.h"
+	"Enemy.h"
+	"Vector2D.h"
+	"InputHandler.h"
+	"Bullet.h"
+	"collision.h"
+	"SoundManager.h"
+	"GameStateMachine.h"
+
+1746120902 d:\codeblock\sdl2_game_ver_0.5\player.h
+	<string>
+	<map>
+	<SDL.h>
+	<SDL_image.h>
+	"GameObject.h"
+	"TextureManage.h"
+	"InputHandler.h"
+	"SoundManager.h"
+
+1746120902 d:\codeblock\sdl2_game_ver_0.5\collision.h
+	"SDL.h"
+	"Vector2D.h"
+
+1746194661 d:\codeblock\sdl2_game_ver_0.5\gamestatemachine.h
+	"GameState.h"
+	<vector>
+
+1746168542 d:\codeblock\sdl2_game_ver_0.5\gamestate.h
+	<string>
+
+1746194299 d:\codeblock\sdl2_game_ver_0.5\playstate.h
+	"GameState.h"
+	"TextureManage.h"
+	"gameObject.h"
+	"player.h"
+	"Enemy.h"
+	"Vector2D.h"
+	"InputHandler.h"
+	"Bullet.h"
+	"collision.h"
+	"SoundManager.h"
+	"gameclass.h"
+	"GameStateMachine.h"
+	"GameOverState.h"
+
+1746195243 d:\codeblock\sdl2_game_ver_0.5\gameoverstate.h
+	"GameState.h"
+	"gameObject.h"
+	"MenuButton.h"
+	"gameclass.h"
+
+1746176800 d:\codeblock\sdl2_game_ver_0.5\menubutton.h
+	"gameObject.h"
+	<string>
+
+1746175843 d:\codeblock\sdl2_game_ver_0.5\menustate.h
+	"GameState.h"
+	"gameObject.h"
+	"MenuButton.h"
+	"gameclass.h"
+
+1746207801 source:d:\codeblock\sdl2_game_ver_0.5\gameobject.cpp
+	"gameObject.h"
+
+1746212688 source:d:\codeblock\sdl2_game_ver_0.5\gameoverstate.cpp
+	"GameOverState.h"
+	"PlayState.h"
+	<iostream>
+	"MenuState.h"
+
+1746210520 source:d:\codeblock\sdl2_game_ver_0.5\gamestatemachine.cpp
+	<iostream>
+	"GameStateMachine.h"
+
+1746205031 source:d:\codeblock\sdl2_game_ver_0.5\inputhandler.cpp
+	"InputHandler.h"
+	"gameclass.h"
+	<iostream>
+
+1746212206 source:d:\codeblock\sdl2_game_ver_0.5\main.cpp
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	"gameclass.h"
+
+1746210570 source:d:\codeblock\sdl2_game_ver_0.5\menubutton.cpp
+	"MenuButton.h"
+	"InputHandler.h"
+
+1746213299 source:d:\codeblock\sdl2_game_ver_0.5\player.cpp
+	"player.h"
+	"InputHandler.h"
+
+1746213199 source:d:\codeblock\sdl2_game_ver_0.5\playstate.cpp
+	"PlayState.h"
+	<iostream>
+
+1746120902 source:d:\codeblock\sdl2_game_ver_0.5\soundmanager.cpp
+	"SoundManager.h"
+
+1746211913 source:d:\codeblock\sdl2_game_ver_0.5\texturemanage.cpp
+	"TextureManage.h"
+
+1746213329 source:d:\codeblock\sdl2_game_ver_0.5\menustate.cpp
+	"MenuState.h"
+	"PlayState.h"
+	<iostream>
+
