@@ -1,7 +1,6 @@
-This is Vietnamese version. [README in English](/README_en.md)
 
 # Thông tin về project
-[Video demo game](https://youtu.be/FZnFTIYFcQo)
+[Video demo game](https://youtu.be/UJWvwABj0T8?si=r1rj-4SReRJZZmjk)
 ## Tác giả
 - **Họ tên:** Nguyễn Trọng Đại
 - **Lớp khoá học:** QH-2024-I/CQ-I-CS4
