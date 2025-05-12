@@ -25,4 +25,4 @@ Mục tiêu trò chơi là di chuyển nhân vật và cố gắng tiêu diệt 
 |   `S`   | Move down               |
 |   `E`   | Shoot                   |
 # Nguồn tham khảo
-- Code mẫu tại cuốn [SDL Game Development (Packt Publishing) by Shaun Mitchell](https://www.packtpub.com/simple-directmedia-layer-game-development/book)
+- Tham khảo tại cuốn [SDL Game Development (Packt Publishing) by Shaun Mitchell](https://www.packtpub.com/simple-directmedia-layer-game-development/book)
