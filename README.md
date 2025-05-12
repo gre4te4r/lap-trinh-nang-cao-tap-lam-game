@@ -16,6 +16,7 @@
 Đây là một topdown shooter game
 ## Cách chơi
 Mục tiêu trò chơi là di chuyển nhân vật và cố gắng tiêu diệt nhiều kẻ địch nhất có thể
+Người chơi có thể nâng cấp một số chỉ số như tốc độ bắn, tốc độ đạn,.. sau khi tăng level bằng cách tiêu diệt kẻ địch
 # Các phím bấm
 |   Key   | Action                  |
 |:-------:| ----------------------- |
